@@ -1,0 +1,227 @@
+<pre class='metadata'>
+Title: 2022 January Library Evolution Poll Outcomes
+Shortname: D2459
+Revision: 0
+Status: D
+Group: WG21
+Audience: WG21
+Editor: Bryce Adelstein Lelbach (he/him/his) — Library Evolution Chair, NVIDIA, brycelelbach@gmail.com
+Editor: Fabio Fracassi — Library Evolution Vice Chair, CODE University of Applied Sciences, f.fracassi@gmx.net
+Editor: Ben Craig — Library Evolution Vice Chair, NI, ben.craig@gmail.com
+URL: https://wg21.link/P2459
+!Source: <a href="https://github.com/brycelelbach/wg21_p2459_2022_january_library_evolution_poll_outcomes/blob/main/2022_january_library_evolution_poll_outcomes.bs">GitHub</a>
+Issue Tracking: GitHub https://github.com/brycelelbach/wg21_p2459_2022_january_library_evolution_poll_outcomes/issues
+Metadata Order: Editor, This Version, Source, Issue Tracking, Project, Audience
+Markup Shorthands: markdown yes
+Toggle Diffs: no
+No Abstract: yes
+Boilerplate: style-syntax-highlighting off
+Default Biblio Display: direct
+</pre>
+
+<style>
+table, th, tr, td {
+  border: 2px solid black !important;
+}
+@media (prefers-color-scheme: dark) {
+  table, th, tr, td {
+    border: 2px solid white !important;
+  }
+}
+</style>
+
+# Introduction # {#introduction}
+
+In January 2022, the C++ Library Evolution group conducted a series of
+  electronic decision polls [[P2458R1]].
+This paper provides the results of those polls and summarizes the results.
+
+In total, 65 people participated in the polls.
+Some participants opted to not vote on some polls.
+Thank you to everyone who participated, and to the proposal authors for all
+  their hard work!
+
+# Poll Outcomes # {#poll-outcomes}
+
+* SF: Strongly Favor.
+* WF: Weakly Favor.
+* N: Neutral.
+* WA: Weakly Against.
+* SA: Strongly Against.
+
+<table>
+<tr>
+<th style="padding-bottom: 10px;">Poll
+<th>SF
+<th>WF
+<th>N
+<th>WA
+<th>SA
+<th>Outcome
+
+
+<tr>
+<td style="padding-bottom: 16px;">
+Poll 1: Send [[P2300R4]] (`std::execution`) to Library Working Group for C++23, classified as a focus ([[P0592R4]] bucket 1 item).
+<td>23
+<td>14
+<td>0
+<td>6
+<td>11
+<td>No consensus. There is sustained strong opposition against including such a large proposal into C++23 at such a late stage. It is also unclear whether we would be able to complete wording review in the limited time we have available. This lack of consensus is purely due to timing procedural grounds. The design itself has strong consensus in favor. The Chair (Bryce) asked Vice Chairs Fabio and Bento determine consensus on this poll, as the Chair is one of the co-authors of P2300. The Chair fully supports their decision.
+
+<tr>
+<td style="padding-bottom: 16px;">
+Poll 2: Send [[P2363R3]] (Extending Associative Containers With The Remaining Heterogeneous Overloads) to Library Working Group for C++23, classified as an addition ([[P0592R4]] bucket 3 item).
+<td>17
+<td>17
+<td>1
+<td>1
+<td>0
+<td>Consensus in favor.
+
+<tr>
+<td style="padding-bottom: 16px;">
+Poll 3: Send [[P0493R3]] (Atomic Maximum/Minimum) to Library Working Group for C++23, classified as an addition ([[P0592R4]] bucket 3 item).
+<td>17
+<td>27
+<td>2
+<td>0
+<td>0
+<td>Strong consensus in favor.
+
+<tr>
+<td style="padding-bottom: 16px;">
+Poll 4: Send [[P2286R6]] (Formatting Ranges) to Library Working Group for C++23, classified as an addition ([[P0592R4]] bucket 3 item).
+<td>18
+<td>17
+<td>1
+<td>1
+<td>0
+<td>Consensus in favor.
+
+<tr>
+<td style="padding-bottom: 16px;">
+Poll 5: Send [[P2165R3]] (Compatibility Between `tuple`, `pair`, And `tuple`-Like Objects) to Library Working Group for C++23, classified as an improvement of an existing feature ([[P0592R4]] bucket 2 item).
+<td>20
+<td>14
+<td>3
+<td>2
+<td>0
+<td>Consensus in favor.
+
+<tr>
+<td style="padding-bottom: 16px;">
+Poll 6: Send [[P2494R1]] (Relaxing Range Adaptors To Allow For Move Only Types) to Library Working Group for C++23, classified as an improvement of an existing feature ([[P0592R4]] bucket 2 item).
+<td>15
+<td>15
+<td>1
+<td>0
+<td>0
+<td>Strong consensus in favor.
+
+<tr>
+<td style="padding-bottom: 16px;">
+Poll 7: Send [[P2322R5]] (`ranges::fold`) to Library Working Group for C++23, classified as an addition ([[P0592R4]] bucket 3 item).
+<td>16
+<td>14
+<td>2
+<td>0
+<td>0
+<td>Strong consensus in favor.
+
+<tr>
+<td style="padding-bottom: 16px;">
+Poll 8: Send [[P2302R2]] (`ranges::contains`) to Library Working Group for C++23, classified as an addition ([[P0592R4]] bucket 3 item).
+<td>17
+<td>16
+<td>0
+<td>0
+<td>0
+<td>Unanimous consensus in favor.
+
+<tr>
+<td style="padding-bottom: 16px;">
+Poll 9: Send [[P1899R2]] (`views::stride`) to Library Working Group for C++23, classified as an addition ([[P0592R4]] bucket 3 item).
+<td>18
+<td>13
+<td>0
+<td>0
+<td>0
+<td>Unanimous consensus in favor.
+
+<tr>
+<td style="padding-bottom: 16px;">
+Poll 10: Send [[P2474R1]] (`views::repeat`) to Library Working Group for C++23, classified as an addition ([[P0592R4]] bucket 3 item).
+<td>22
+<td>11
+<td>1
+<td>0
+<td>0
+<td>Strong consensus in favor.
+
+<tr>
+<td style="padding-bottom: 16px;">
+Poll 11: Send [[P2508R1]] (Expose `basic-format-string<charT, Args...>`) to Library Working Group for C++23, classified as an addition ([[P0592R4]] bucket 3 item).
+<td>19
+<td>13
+<td>2
+<td>0
+<td>0
+<td>Strong consensus in favor.
+
+<tr>
+<td style="padding-bottom: 16px;">
+Poll 12: Send [[P2248R4]] (Enabling List-Initialization For Algorithms) to Library Working Group for C++23, classified as an improvement of an existing feature ([[P0592R4]] bucket 2 item).
+<td>6
+<td>19
+<td>6
+<td>0
+<td>0
+<td>Strong consensus in favor.
+
+<tr>
+<td style="padding-bottom: 16px;">
+Poll 13: Send [[P2404R2]] (Move-Only Types For `equality_comparable_with`, `totally_ordered_with`, And `three_way_comparable_with`) to Library Working Group for C++23, classified as an improvement of an existing feature ([[P0592R4]] bucket 2 item).
+<td>12
+<td>10
+<td>3
+<td>0
+<td>0
+<td>Strong consensus in favor.
+
+<tr>
+<td style="padding-bottom: 16px;">
+Poll 14: Send [[P2502R1]] (`std::generator`) to Library Working Group for C++23, classified as a focus ([[P0592R4]] bucket 1 item).
+<td>18
+<td>11
+<td>1
+<td>1
+<td>1
+<td>Consensus in favor.
+
+</table>
+
+
+
+<pre class=biblio>
+{
+  "P2458R1": {
+    "title": "2022 January Library Evolution Polls",
+    "authors": [
+      "Bryce Adelstein Lelbach"
+    ],
+    "href": "https://wg21.link/P2458R1",
+    "date": "2022-01-26"
+  },
+  "P2502R1": {
+    "title": "std::generator",
+    "authors": [
+      "Casey Carter"
+    ],
+    "href": "https://wg21.link/P2502R1",
+    "date": "2022-01-25"
+  }
+}
+</pre>
+
