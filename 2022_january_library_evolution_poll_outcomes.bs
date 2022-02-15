@@ -1,8 +1,8 @@
 <pre class='metadata'>
 Title: 2022 January Library Evolution Poll Outcomes
-Shortname: D2459
+Shortname: P2459
 Revision: 0
-Status: D
+Status: P
 Group: WG21
 Audience: WG21
 Editor: Bryce Adelstein Lelbach (he/him/his) — Library Evolution Chair, NVIDIA, brycelelbach@gmail.com
@@ -58,7 +58,6 @@ Thank you to everyone who participated, and to the proposal authors for all
 <th>WA
 <th>SA
 <th>Outcome
-
 
 <tr>
 <td style="padding-bottom: 16px;">
