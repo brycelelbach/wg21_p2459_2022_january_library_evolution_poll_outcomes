@@ -68,7 +68,7 @@ Poll 1: Send [[P2300R4]] (`std::execution`) to Library Working Group for C++23, 
 <td>0
 <td>6
 <td>11
-<td>No consensus. There is sustained strong opposition against including such a large proposal into C++23 at such a late stage. It is also unclear whether we would be able to complete wording review in the limited time we have available. This lack of consensus is purely due to timing procedural grounds. The design itself has strong consensus in favor. The Chair (Bryce) asked Vice Chairs Fabio and Bento determine consensus on this poll, as the Chair is one of the co-authors of P2300. The Chair fully supports their decision.
+<td>No consensus. There is sustained strong opposition against including such a large proposal into C++23 at such a late stage. It is also unclear whether we would be able to complete wording review in the limited time we have available. Timing is a major factor in the lack of consensus. The overall design still has strong support. The Chair, Bryce Adelstein Lelbach, asked Vice Chairs Fabio Fracassi and Ben Craig to determine consensus on this poll, as the Chair is one of the co-authors of P2300. The Chair fully supports their decision.
 
 <tr>
 <td style="padding-bottom: 16px;">
